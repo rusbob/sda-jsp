@@ -20,7 +20,6 @@ public class MyWebServlet extends HttpServlet {
         } else {
             input = input.concat(" , welcome to the club of Servlet");
         }
-        response.setContentType("text/html");
         response.getWriter().write("<h2>"+input+"</h2>");
     }
 }

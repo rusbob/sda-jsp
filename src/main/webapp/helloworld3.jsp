@@ -5,5 +5,10 @@
 
 <!-- Import usage -->
 <p>The local server time is <%= new Date() %></p>.
+
+The local server
+
+time is <jsp:expression> new Date() </jsp:expression>.
+
 </BODY>
 </HTML>

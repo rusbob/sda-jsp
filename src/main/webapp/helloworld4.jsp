@@ -11,6 +11,6 @@ private static String getCurrentTime() { return new Date().toString(); }
 <BODY>
 
 This page was loaded into memory at <%=getLoadTime() %>.<BR>
-The current time is <%=  getCurrentTime() %>
+The current time is <%=getCurrentTime() %>
 </BODY>
 </HTML>
